@@ -1,19 +1,20 @@
 import { css } from "@emotion/css";
-import Typography from "@mui/material/Typography";
+import { Box, Typography } from "@mui/material";
 import * as React from "react";
-import { Box, ThemeProvider } from "@mui/system";
+import { ThemeProvider } from "@mui/system";
 
 export default function BoxSx() {
   return (
-    <ThemeProvider
-      theme={{
-        palette: {
-          primary: {
-            main: "#007FFF",
-            dark: "#0066CC",
-          },
+    const theme = createTheme({
+      palette: {
+        primary: {
+          main: purple[500],
         },
-      }}
+        secondary: {
+          main: green[500],
+        },
+      },
+    });
     >
       <Box
         sx={{
