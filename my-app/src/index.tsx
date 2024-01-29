@@ -1,6 +1,5 @@
 import { css } from "@emotion/css";
 import Typography from "@mui/material/Typography";
-
 import * as React from "react";
 import { Box, ThemeProvider } from "@mui/system";
 
