@@ -13,15 +13,15 @@ const theme = createTheme({
         sm: 480,
         md: 767,
         lg: 1200,
-        xl: 1519,
+        xl: 1920,
       },
 
       spacing: { 
-        xs: 0,
-        sm: 1.8,
-        md: 5,
-        lg: 10.25,
-        xl: 12.5,
+        xs: 15px,
+        sm: 38px,
+        md: 40px,
+        lg: 82px,
+        xl: 100px,
       
 
   },
@@ -50,7 +50,6 @@ const theme = createTheme({
       fontSize: "10px",
       color:"#f9f5f3",
       fontWeight:"400",
-      lineHeight: "16px"
       letterSpacing:"1.6px"
       }
 
@@ -58,21 +57,18 @@ const theme = createTheme({
         fontSize: "32.5px",
         color:'#f48982',
         fontWeight:"700",
-        lineHeight: "63.375px"
         letterSpacing:"1.6px"
       },
       h3: {
         fontSize: "20px",
         color:'#f48982',
-        fontWeight:"700"
-        lineHeight:"22.4px"
+        fontWeight:"700",
         letterSpacing:"1.6px"
       },
       h4: {
         fontSize: "20px",
         color:'#f48982',
-        fontWeight:"700"
-        lineHeight::"27.3px",
+        fontWeight:"700",
         letterSpacing:"1.6px"
       },
       p: {
@@ -93,13 +89,8 @@ const theme = createTheme({
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+       
          </ThemeProvider>
-    />
     >
     >
     >
