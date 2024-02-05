@@ -68,31 +68,26 @@ const theme = createTheme({
       fontSize: "10px",
       color:"#f9f5f3",
       fontWeight:"400",
-      letterSpacing:"1.6px"
       }
 
       h2: {
         fontSize: "32.5px",
         color:'#f48982',
-        fontWeight:"700",
-        letterSpacing:"1.6px"
+        fontWeight:"700"
       },
       h3: {
         fontSize: "20px",
         color:'#f48982',
         fontWeight:"700",
-        letterSpacing:"1.6px"
       },
       h4: {
         fontSize: "20px",
         color:'#f48982',
         fontWeight:"700",
-        letterSpacing:"1.6px"
       },
       p: {
         fontSize: "12px",
         color: "#918581",
-        letterSpacing: "1.6px",
       },
      
 
