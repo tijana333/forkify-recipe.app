@@ -6,6 +6,24 @@ import { LocalizatorProvider } from "@mui/lab";
 import AdapterDateFns from "@mui/lab/AdapterDateFns";
 import { spacing } from '@mui/system'
 
+import { i18n } from '@lingui/core'
+import { I18nProvider } from '@lingui/react'
+import { en } from 'make-plural/plurals'         // Plural rules for English
+import { messages } from './locales/en/messages' // English catalog of translations
+import Inbox from './Inbox'
+import { Trans } from "@lingui/macro"
+
+
+i18n.loadLocaleData('en', { plurals: en })
+i18n.load('en', messages)
+i18n.activate('en')
+
+const App = () => (
+  <I18nProvider i18n={i18n}>
+    <Inbox />
+  </I18nProvider>
+)
+
 const theme = createTheme({
     breakpoints: {
       values: {
@@ -17,11 +35,11 @@ const theme = createTheme({
       },
 
       spacing: { 
-        xs: 15px,
-        sm: 38px,
-        md: 40px,
-        lg: 82px,
-        xl: 100px,
+        xs: 15 px,
+        sm: 38 px,
+        md: 40 px,
+        lg: 82 px,
+        xl: 100 px,
       
 
   },
